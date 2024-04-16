@@ -17,7 +17,7 @@ contract Postgram {
     }
 
     //add code
-    mapping(address => Post[]) public tweets;
+    mapping(address => Post[]) public posts;
     address public owner;
 
     //define events
